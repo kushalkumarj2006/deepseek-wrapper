@@ -1,0 +1,34 @@
+# Environment — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+dist/
+build/
+coverage/
+.cache/
